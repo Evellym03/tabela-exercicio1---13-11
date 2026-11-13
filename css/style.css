@@ -1,0 +1,70 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+padding: 20px;
+font-family: Georgia, serif;
+}
+
+.tabela {
+width: 100%;
+border-collapse: collapse;
+}
+
+td, th {
+border: 1px solid #ddd;
+padding: 15px;
+text-align: center;
+font-size: 14px;
+}
+
+td:first-child {
+text-align: left;
+}
+
+th:first-child {
+background-color: #f2f2f2;
+color: black;
+}
+
+th:nth-child(2) {
+background-color: rgb(85, 92, 102);
+color: white;
+}
+
+th:nth-child(3) {
+background-color: rgb(230, 72, 102);
+color: white;
+}
+
+th:nth-child(4) {
+background-color: rgb(105, 205, 105);
+color: white;
+}
+
+td:nth-child(3) {
+background-color: rgb(244, 246, 249);
+}
+
+button {
+padding: 8px 20px;
+background-color: white;
+border: 1px solid #ccc;
+color: #6334a0;
+cursor: pointer;
+}
+
+tr:last-child td:nth-child(3) button {
+background-color: rgb(230, 72, 102);
+color: white;
+border: none;
+}
